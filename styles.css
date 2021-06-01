@@ -49,6 +49,18 @@
     margin-right: auto;
     margin-top: -1.3%
 }
-.buttuons {
-
+.buttons {
+    display: flex;
+    position: center;
+    justify-content: center;
+    padding: 30px;
+    width: auto;
+}
+.google_search {
+    margin-inline: 7px;
+    padding: 5px;
+}
+.lucky {
+    margin-inline: 7px;
+    padding: 5px;
 }
