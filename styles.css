@@ -2,6 +2,8 @@
    width: 100%;
    position: fixed;
    top: 0;
+   margin-left: 2100px;
+   
 }
 .navbar_left {
     width: 100%;
@@ -13,6 +15,7 @@
     list-style-type: none;
     padding: 10px;
     font-size: 15px;
+    
     
 }
 .navbar_left li {
@@ -69,29 +72,30 @@
 }
 * li {
     list-style-type: none;
+    
+}
+
+* ul {
+    display: flex;
 }
 
 .footer1 {
     background-color: #f2f2f2;
-    position: absolute;
+    position: relative;
     width: 100%;
-    bottom: 4.4%;
     padding: 20px 40px;
-    margin: 0;
     margin-left: -25px;
     border-bottom: 3px solid #dadce0;
+    top: 525px;
 }
- #footer2 a {
+    a {
     background-color: #f2f2f2;
-    position: absolute;
     width: 100%;
-    bottom: 0%;
-    padding: 20px 40px;
-    margin: 0;
-    margin-left: -25px;
-    
-    
- }
+    margin: 60px;
+    margin-left: -40px;
+    }
+
+ 
  .button {
      background-color: #2b7de9;
      font-weight: 500;
