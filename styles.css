@@ -1,9 +1,13 @@
+* {
+    font-family: sans-serif;
+}
+
 .navbar_right {
    width: 100%;
    position: fixed;
    top: 0;
    margin-left: 2100px;
-   
+
 }
 li:hover {
     text-decoration: underline;
@@ -19,8 +23,7 @@ li:hover {
     list-style-type: none;
     padding: 10px;
     font-size: 15px;
-    
-    
+
 }
 .navbar_left li {
     float: left;
@@ -39,7 +42,7 @@ li:hover {
     margin-right: auto;
     margin-top: 15%;
     padding: 30px;
-    
+
 }
 .searchbar {
     width: 28%;
@@ -50,10 +53,12 @@ li:hover {
     padding: 10px;
     border-radius: 10em;
     outline: none;
+    border: 0px 1px;
+
 }
 
 .searchbar:hover {
-    box-shadow: 1px 1px 5px #8888889f;
+    box-shadow: 0px 0px 5px #8888889f;
 }
 
 .icon {
@@ -70,6 +75,8 @@ li:hover {
     justify-content: center;
     padding: 30px;
     width: auto;
+    border: 0px 1px;
+    outline: none;
 }
 .google_search {
     margin-inline: 7px;
